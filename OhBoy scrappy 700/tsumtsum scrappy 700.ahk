@@ -342,6 +342,7 @@ if(ErrorLevel=0){ ; found the image
 	Random y, FoundY, FoundY+10
 	MouseMove , x,y,0
 	MouseClick,Left,x,y
+	disp("errorFix imageclaimall!")
 	Sleep, %sleepdelay%
 }
 
@@ -353,6 +354,7 @@ if(ErrorLevel=0){ ; found the image
 	Random y, FoundY, FoundY+10
 	MouseMove , x,y,0
 	MouseClick,Left,x,y
+	disp("errorFix imagereceiveok!")
 	Sleep, %sleepdelay%
 }
 
@@ -364,6 +366,7 @@ if(ErrorLevel=0){ ; found the image
 	Random y, FoundY, FoundY+10
 	MouseMove , x,y,0
 	MouseClick,Left,x,y
+	disp("errorFix imageback!")
 	Sleep, %sleepdelay%
 }
 
@@ -375,6 +378,7 @@ if(ErrorLevel=0){ ; found the image
 	Random y, FoundY, FoundY+10
 	MouseMove , x,y,0
 	MouseClick,Left,x,y
+	disp("errorFix imagedc!")
 	Sleep, %sleepdelay%
 }
 
@@ -391,6 +395,7 @@ if(ErrorLevel=0){ ; found the image
 	Random y, FoundY, FoundY+10
 	MouseMove , x,y,0
 	MouseClick,Left,x,y	
+	disp("errorFix imagestartgame!")
 	Sleep, %sleepdelay%
 }
 
@@ -403,6 +408,7 @@ if(ErrorLevel=0){ ; found the image
 	Random y, FoundY, FoundY+10
 	MouseMove , x,y,0
 	MouseClick,Left,x,y	
+	disp("errorFix imagecloseevents!")
 	Sleep, %sleepdelay%
 }
 
@@ -413,6 +419,7 @@ if(ErrorLevel=0){ ; found the image
 	Random y, FoundY, FoundY+10
 	MouseMove , x,y,0
 	MouseClick,Left,x,y	
+	disp("errorFix imageokhearts!")
 	Sleep, %sleepdelay%
 }
 
@@ -424,6 +431,7 @@ if(ErrorLevel=0){ ; found the image
 	MouseMove , bottomx,bottomy,0
 	MouseClick,Left,x,y	
 	MouseClick,Left,bottomx,bottomy
+	disp("errorFix imageheartsent!")
 	Sleep, %sleepdelay%
 }
 
@@ -433,6 +441,7 @@ if(ErrorLevel=0){ ; found the image
 	Random x, FoundX+50, FoundX+60
 	Random y, FoundY+20, FoundY+30
 	MouseClick,Left,x,y	
+	disp("errorFix imagecloseinvite!")
 	Sleep, %sleepdelay%
 }
 
